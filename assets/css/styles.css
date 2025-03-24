@@ -68,3 +68,18 @@ a img{
     width: 20px;
     height: 20px;
 }
+
+@media screen and (max-width: 900px) {
+    #title {
+        text-align: center;
+    }
+    section {
+        flex-direction: column;
+    }
+    #anchors {
+        margin-top: 20px;
+    }
+    a {
+        margin-bottom: 10px;
+    }
+}
